@@ -1,6 +1,6 @@
 # naiveslam
 simple slam implementetion for rostselmash job interview
-With my gratitude to geohot and new-terra team 
+With my gratitude to geohot and old new-terra team 
 ###############################################################################
 
 INSTALL: requirements: ubuntu 18.04 or similar, python3
@@ -23,9 +23,15 @@ usage:
 -F 500 ./slam.py videos/[videoname]
 -F 500 ./liveslam.py
 
-
 ###############################################################################
 
 Чтобы выбрать камеру - в VideoCapture(index) меняем индекс от 0
 
 -F фокусное расстояние камеры, можно указать в переменных окружения вместо использования в команде
+
+Классы
+Frame -- Изображения с ORB фичами
+Point -- 3-D точки на карте и их соответствия на кадре
+Map -- Коллекция из Point и Frame
+Display2D -- Для отображения текущего кадра, возможно придется поставить SDL2
+Display3D -- Pangolin Для отображния 3d облака фич
