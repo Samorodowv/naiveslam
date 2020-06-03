@@ -12,6 +12,7 @@ sudo apt upgrade -y
 sudo apt install build-essential git cmake cmake-qt-gui libeigen3-dev python3-dev python3-pip -y
 
 ############################################################################### 
+
 git clone and follow instructions: 
 https://github.com/stevenlovegrove/Pangolin 
 https://github.com/RainerKuemmerle/g2o
