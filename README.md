@@ -2,8 +2,9 @@
 simple slam implementetion for rostselmash job interview
 With my gratitude to geohot and old new-terra team 
 ###############################################################################
+INSTALL: 
 
-INSTALL: requirements: ubuntu 18.04 or similar, python3
+requirements: ubuntu 18.04 or similar, python3
 
 sudo apt update -y
 sudo apt upgrade -y
