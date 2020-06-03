@@ -1,6 +1,6 @@
 # naiveslam
 simple slam implementetion for rostselmash job interview
-With my gratitude to geohot and old new-terra team 
+With my gratitude to geohot (tutorials) and old new-terra team 
 ###############################################################################
 
 INSTALL: 
